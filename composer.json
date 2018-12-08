@@ -1,5 +1,5 @@
 {
-	"name": "markguinn/silverstripe-email-helpers",
+	"name": "nirajp/silverstripe-email-helpers",
 	"description": "Silverstripe extension containing SMTP mailer class and some other classes for HTML emails",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe", "email", "smtp", "emogrifier"],
@@ -7,11 +7,11 @@
 		{
 			"name": "Mark Guinn",
 			"homepage": "http://github.com/markguinn",
-            "role": "Developer"
+			"role": "Developer"
 		}
 	],
 	"require": {
-		"silverstripe/framework": "~3.0",
+		"silverstripe/framework": "~4.0",
 		"pelago/emogrifier": "^2.0",
 		"phpmailer/phpmailer": "^5.2.20"
 	},
@@ -25,6 +25,6 @@
 		}
 	},
 	"replace": {
-        "markguinn/silverstripe-email-helpers": "*"
-    }
+        	"nirajp/silverstripe-email-helpers": "*"
+	}
 }
